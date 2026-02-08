@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container{
+    width: 90%;
+    max-width: 1216px;
+    margin: auto;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#banner{
+    background-image: url(/assets/images/image-michael-jordan-banner.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 94px 0;
+}
+
+#banner .container .esq{
+    width: 50%;
+    min-width: 604px;
+}
+
+#banner .container .logo-nome-marca{
+    display: flex;
+    align-items: center;
+}
+
+#banner .container .logo-nome-marca .texto-logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+#banner .container .titulo{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#banner .container .texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#produtos{
+    padding: 80px 0;
+}
+
+#produtos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos .loop-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    column-gap: 32px;
+    row-gap: 40px;
+}
+
+#produtos .container .titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#produtos .container .texto{
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#produtos .loop-produtos .card .produto{
+    background-color: #F3F7FF;
+    padding: 32.5px 79.5px;
+}
+
+#produtos .loop-produtos .card{
+    max-width: 384px;
+}
+
+#produtos .loop-produtos .card .nome{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #121214;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+#produtos .loop-produtos .card .link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7CA2F4;
+    text-decoration: none;
+}
+
+#produtos .loop-produtos .card .valor{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #121214;
+    padding-top: 24px;
+}
+
+
+@media screen and (max-width: 1024px){    
+    #banner .container .esq{
+        width: 100%;
+        min-width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){    
+    #banner .container .esq{
+        width: 100%;
+        min-width: auto;
+    }
+     #banner {
+        background-position: 30%;
+    }
+
+    br{
+        display: none;
+    }
+
+    html{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){    
+    #banner .container .esq{
+        width: 100%;
+        min-width: auto;
+    }
+   
+}
+
+@media screen and (max-width: 425px){  
+    #produtos .loop-produtos .card {
+        width: 100%;
+    }
+
+    #produtos .loop-produtos .card .produto {
+        width: 100%;
+        margin: auto;
+        padding: 32.5px 32.5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    html{
+        font-size: 12px;
+    }
+}
+

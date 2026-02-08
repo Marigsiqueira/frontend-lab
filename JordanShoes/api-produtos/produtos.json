@@ -1,0 +1,10 @@
+{
+    "produtos": [
+      { "id": 1, "name": "Air Jordan 1 Mid Dutch Green", "link": "Tênis Air Jordan", "valor": "R$ 1.199,99", "urlImg": "./assets/images/air-jordan-1.png" },
+      { "id": 2, "name": "Air Jordan 1 High Zoom CMFT Tropical", "link": "Tênis Air Jordan", "valor": "R$ 1.049,00", "urlImg": "./assets/images/air-jordan-2.png" },
+      { "id": 3, "name": "Air Jordan 1 Mid Dutch Green", "link": "Tênis Air Jordan", "valor": "R$ 1.350,00", "urlImg": "./assets/images/air-jordan-3.png" },
+      { "id": 4, "name": "Air Jordan 1 Mid GS 'Light Smoke Grey'", "link": "Tênis Air Jordan", "valor": "R$ 1.585,00", "urlImg": "./assets/images/air-jordan-4.png" },
+      { "id": 5, "name": "Air Jordan 1 Mid SE Bright Citrus", "link": "Tênis Air Jordan", "valor": "R$ 949,99", "urlImg": "./assets/images/air-jordan-5.png"},
+      { "id": 6, "name": "Air Jordan 1 Mid Grey Camo", "link": "Tênis Air Jordan", "valor": "R$ 999,99", "urlImg": "./assets/images/air-jordan-6.png"}
+    ]
+  }
